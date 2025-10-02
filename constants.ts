@@ -73,7 +73,7 @@ export const projects: Project[] = [
     thumbnailUrl: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
     description: 'Using SHAP to explain a house price prediction machine learning model.',
     technologies: ['python', 'scikit-learn', 'shap', 'jupyter'],
-    htmlUrl: 'https://github.com/moormaninmotion-byte/SHAP-House-Price-Model',
+    htmlUrl: 'https://shap-89795080659.us-east5.run.app',
     longDescription: 'This project trains a gradient boosting model to predict house prices and then uses SHAP (SHapley Additive exPlanations) to interpret its predictions. It provides visualizations that show which features have the most impact, making the "black box" model transparent.',
     problemSolved: 'Addresses the challenge of model interpretability in machine learning, providing clear, human-understandable explanations for complex model predictions.',
     learnings: 'This project was a deep dive into model interpretability, reinforcing the principle that explaining predictions is as crucial as making them, especially for building trust in AI systems.'
@@ -84,7 +84,7 @@ export const projects: Project[] = [
     thumbnailUrl: 'https://images.unsplash.com/photo-1555949963-ff98c872d240?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
     description: 'An exploration of advanced chaining strategies for multiple Large Language Models.',
     technologies: ['typescript', 'llm', 'api integration', 'langchain'],
-    htmlUrl: 'https://pathfinder-89795080659.us-east5.run.app/',
+    htmlUrl: 'https://llm-chain-89795080659.us-east5.run.app/',
     longDescription: 'This project implements and compares various strategies for chaining multiple LLMs together to solve complex problems. It explores techniques like sequential processing and tree-of-thought to achieve more accurate and nuanced results than a single model can provide.',
     problemSolved: 'Demonstrates how to overcome the limitations of single LLMs by orchestrating multiple models, enabling the solution of more complex, multi-step reasoning tasks.',
     learnings: 'Gained practical experience in designing and implementing complex LLM orchestration patterns, understanding the trade-offs between different chaining strategies for accuracy and efficiency.'
@@ -92,10 +92,10 @@ export const projects: Project[] = [
   {
     id: 5,
     title: 'Karen-AI: Manager Chatbot',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1556742111-a301076d9d18?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+    thumbnailUrl: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGJmaXh0a3B0YnVnZjNqMDljNHdoa3h3djIyMGw2MnFtbzNiZ2FscCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l4pT9M7xTuvBzwtGg/giphy.gif',
     description: 'A satirical "let me speak to your manager" AI chatbot experience.',
     technologies: ['typescript', 'next.js', 'vercel ai sdk', 'openai api'],
-    htmlUrl: 'https://github.com/moormaninmotion-byte/Karen-AI',
+    htmlUrl: 'https://the-karenifier-89795080659.us-west1.run.app/',
     longDescription: 'Karen-AI is a humorous chatbot application that simulates a conversation with the archetypal "Karen." It\'s a fun project showcasing chatbot development principles and creative prompt engineering to maintain a consistent, challenging persona.',
     problemSolved: 'Serves as an engaging and memorable demonstration of advanced chatbot personality programming and state management in a conversational AI.',
     learnings: 'Honed skills in prompt engineering and persona creation for conversational AI, learning to guide the model’s behavior to maintain a consistent and challenging character.'
@@ -106,9 +106,9 @@ export const projects: Project[] = [
     thumbnailUrl: 'https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
     description: 'An application to help users craft more effective prompts for LLMs.',
     technologies: ['typescript', 'react', 'tailwind css', 'gemini api'],
-    htmlUrl: 'https://github.com/moormaninmotion-byte/AI-Prompt-Refiner',
+    htmlUrl: 'https://copy-of-ai-prompt-refiner-89795080659.us-west1.run.app/',
     longDescription: 'A web-based tool that takes a user\'s initial idea for a prompt and iteratively refines it. It suggests additions, clarifies ambiguities, and structures the prompt based on best practices to elicit higher-quality responses from Large Language Models.',
-    problemSolved: 'Helps users bridge the gap between their intent and the language an AI model understands, improving the quality and reliability of AI-generated content.',
+    problemSolved: 'Parameter tuning, MLoPs',
     learnings: 'Learned to build intuitive user interfaces for complex AI interactions and developed a systematic approach to prompt optimization for better model performance.'
   },
   {
@@ -128,7 +128,7 @@ export const projects: Project[] = [
     thumbnailUrl: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
     description: 'A modular framework for building robust and scalable backend services.',
     technologies: ['typescript', 'node.js', 'express', 'dependency injection'],
-    htmlUrl: 'https://github.com/moormaninmotion-byte/POST-Framework',
+    htmlUrl: 'https://post-89795080659.us-east5.run.app/',
     longDescription: 'POST-Framework is a TypeScript-based backend framework designed for rapid development of microservices and APIs. It emphasizes a modular architecture and a clear separation of concerns, allowing developers to build complex applications that are easy to maintain and scale.',
     problemSolved: 'Accelerates backend development by providing a structured, opinionated, and scalable foundation for building modern web services and APIs in TypeScript.',
     learnings: 'Gained a deep understanding of software architecture principles, including dependency injection and modular design, and their importance in creating maintainable and scalable backend systems.'
