@@ -12,7 +12,7 @@ export const Hero: React.FC = () => {
           <img
             src="https://i.ibb.co/YTpMXx41/RUID55dc386b036248bd9a970957aa215225.jpg"
             alt="Headshot"
-            className="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover border-4 border-neutral-800 transition-colors duration-300 hover:border-brand-accent shadow-lg"
+            className="object-cover border-4 border-neutral-800 transition-colors duration-300 hover:border-brand-accent shadow-lg"
             loading="lazy"
             decoding="async"
           />
