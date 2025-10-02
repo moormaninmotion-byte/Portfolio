@@ -6,7 +6,7 @@ export const skills: SkillCategory[] = [
     title: "Cloud & Networking",
     skills: [
       { name: "AWS" },
-      { name: "Azure" },
+      { name: "Google Cloud" },
       { name: "TCP/IP Suite" },
       { name: "Network Security" },
       { name: "VPCs & Subnetting" },
@@ -18,7 +18,7 @@ export const skills: SkillCategory[] = [
     skills: [
       { name: "Application Security" },
       { name: "Vulnerability Assessment" },
-      { name: "Red Team Tactics (GRACT)" },
+      { name: "ACLS Firewall Rules" },
       { name: "Network Sniffing" },
       { name: "SIEM & Log Analysis" },
       { name: "Incident Response" },
@@ -39,7 +39,7 @@ export const skills: SkillCategory[] = [
 
 export const certifications: Certification[] = [
     { name: "GSEC", issuer: "GIAC Security Essentials", icon: GSEC_ICON },
-    { name: "GRACT", issuer: "GIAC Red Team Ops", icon: GRACT_ICON },
+    { name: "GFACT", issuer: "GIAC Foundations", icon: GRACT_ICON },
     { name: "CompTIA A+", issuer: "CompTIA", icon: APLUS_ICON },
     { name: "IT Support Professional", issuer: "Google", icon: GOOGLE_IT_ICON },
 ];
