@@ -84,8 +84,7 @@ export const projects: Project[] = [
     thumbnailUrl: 'https://images.unsplash.com/photo-1555949963-ff98c872d240?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
     description: 'An exploration of advanced chaining strategies for multiple Large Language Models.',
     technologies: ['typescript', 'llm', 'api integration', 'langchain'],
-    htmlUrlG: 'https://pathfinder-89795080659.us-east5.run.app/',
-    htmlUrl: 'https://github.com/moormaninmotion-byte/Multiple-LLM-Chaining-Strategies',
+    htmlUrl: 'https://pathfinder-89795080659.us-east5.run.app/',
     longDescription: 'This project implements and compares various strategies for chaining multiple LLMs together to solve complex problems. It explores techniques like sequential processing and tree-of-thought to achieve more accurate and nuanced results than a single model can provide.',
     problemSolved: 'Demonstrates how to overcome the limitations of single LLMs by orchestrating multiple models, enabling the solution of more complex, multi-step reasoning tasks.',
     learnings: 'Gained practical experience in designing and implementing complex LLM orchestration patterns, understanding the trade-offs between different chaining strategies for accuracy and efficiency.'
