@@ -12,7 +12,7 @@ export const Contact: React.FC = () => {
         </p>
         
         <a 
-          href="mailto:contact@moormaninmotion.byte" 
+          href="mailto:moormaninmotion@gmail.com" 
           className="inline-block bg-brand-accent text-brand-light font-bold py-3 px-8 rounded-lg transition-transform hover:scale-105"
         >
           Say Hello
@@ -22,17 +22,17 @@ export const Contact: React.FC = () => {
           <a href="https://github.com/moormaninmotion-byte" target="_blank" rel="noopener noreferrer" className="text-brand-gray hover:text-brand-accent transition-colors">
             <GitHubIcon className="h-8 w-8" />
           </a>
-          <a href="https://linkedin.com/in/moormaninmotion-byte" target="_blank" rel="noopener noreferrer" className="text-brand-gray hover:text-brand-accent transition-colors">
-            <LinkedInIcon className="h-8 w-8" />
+        <a href="https://linkedin.com/in/dkm3" target="_blank" rel="noopener noreferrer" className="text-brand-gray hover:text-brand-accent transition-colors">
+          <LinkedInIcon className="h-8 w-8" />
           </a>
         </div>
 
         <a 
-          href="/resume.pdf" 
+          href="mailto:moormaninmotion@gmail.com" 
           download 
           className="text-brand-accent border-b border-brand-accent hover:text-brand-light hover:border-brand-light transition-colors"
         >
-          Download My Resume
+          Contact Me!
         </a>
       </div>
     </Section>
