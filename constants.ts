@@ -84,7 +84,7 @@ export const projects: Project[] = [
     thumbnailUrl: 'https://images.unsplash.com/photo-1555949963-ff98c872d240?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
     description: 'An exploration of advanced chaining strategies for multiple Large Language Models.',
     technologies: ['typescript', 'llm', 'api integration', 'langchain'],
-    htmlUrl: 'https://github.com/moormaninmotion-byte/Multiple-LLM-Strategies',
+    htmlUrl: 'https://pathfinder-89795080659.us-east5.run.app/',
     longDescription: 'This project implements and compares various strategies for chaining multiple LLMs together to solve complex problems. It explores techniques like sequential processing and tree-of-thought to achieve more accurate and nuanced results than a single model can provide.',
     problemSolved: 'Demonstrates how to overcome the limitations of single LLMs by orchestrating multiple models, enabling the solution of more complex, multi-step reasoning tasks.',
     learnings: 'Gained practical experience in designing and implementing complex LLM orchestration patterns, understanding the trade-offs between different chaining strategies for accuracy and efficiency.'
@@ -117,7 +117,7 @@ export const projects: Project[] = [
     thumbnailUrl: 'https://images.unsplash.com/photo-1593344484962-796b56d3e3a4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
     description: 'A visualizer for classic pathfinding algorithms like A* and Dijkstra\'s.',
     technologies: ['typescript', 'react', 'data structures', 'algorithms'],
-    htmlUrl: 'https://github.com/moormaninmotion-byte/pathfinding-algorthm',
+    htmlUrl: 'https://pathfinder-89795080659.us-east5.run.app/',
     longDescription: 'An interactive web application that visualizes how pathfinding algorithms work. Users can create a grid with obstacles, select an algorithm, and watch in real-time as it finds the shortest path between two points.',
     problemSolved: 'Makes complex computer science algorithms tangible and easier to understand through interactive visualization, serving as a powerful educational tool.',
     learnings: 'Reinforced fundamental computer science concepts by translating abstract algorithms into a concrete, interactive visual experience. Improved React state management for real-time UI updates.'
