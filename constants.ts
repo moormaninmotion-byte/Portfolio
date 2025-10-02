@@ -146,13 +146,13 @@ export const projects: Project[] = [
   },
   {
     id: 10,
-    title: 'High-Precision Pi Calculator',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-    description: 'A CLI tool to calculate Pi to a high precision using various algorithms.',
-    technologies: ['typescript', 'node.js', 'big-integer', 'algorithms'],
-    htmlUrl: 'https://github.com/moormaninmotion-byte/pi',
-    longDescription: 'A command-line tool to calculate the value of Pi to a user-specified number of decimal places. It implements multiple algorithms, such as the Gauss-Legendre algorithm, to demonstrate high-precision arithmetic and computational performance.',
-    problemSolved: 'A challenging exercise in implementing complex mathematical algorithms and handling high-precision numbers, serving as a benchmark for computational performance.',
-    learnings: 'Sharpened skills in implementing complex mathematical algorithms and handling arbitrary-precision arithmetic, providing a strong foundation in computational mathematics and performance optimization.'
+    title: 'Vulnerable AI',
+    thumbnailUrl: 'https://i.ibb.co/TBgM1JC7/Screenshot-2025-10-02-150828.png',
+    description: 'A tool to highlight challenges of GEN AI.',
+    technologies: ['typescript', 'Cybersecurity', 'Prompt-Injection', 'Prompt-Poisoning'],
+    htmlUrl: 'https://vulnerable-ai-89795080659.us-west1.run.app/',
+    longDescription: 'Explores challenges weaknesses and potential vulnerabilities of Gen AI, LLMs',
+    problemSolved: 'AI Safety AI Security',
+    learnings: 'Bias'
   }
 ];
