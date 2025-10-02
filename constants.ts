@@ -38,10 +38,10 @@ export const skills: SkillCategory[] = [
 ];
 
 export const certifications: Certification[] = [
-    { name: "GSEC", issuer: "GIAC Security Essentials", icon: GSEC_ICON },
-    { name: "GFACT", issuer: "GIAC Foundations", icon: GRACT_ICON },
-    { name: "CompTIA A+", issuer: "CompTIA", icon: APLUS_ICON },
-    { name: "IT Support Professional", issuer: "Google", icon: GOOGLE_IT_ICON },
+  { name: "GSEC", issuer: "GIAC Security Essentials", icon: GSEC_ICON },
+  { name: "GFACT", issuer: "GIAC Foundations", icon: GRACT_ICON },
+  { name: "CompTIA A+", issuer: "CompTIA", icon: APLUS_ICON },
+  { name: "IT Support Professional", issuer: "Google", icon: GOOGLE_IT_ICON },
 ];
 
 export const projects: Project[] = [
@@ -155,16 +155,15 @@ export const projects: Project[] = [
     problemSolved: 'AI Safety AI Security',
     learnings: 'Bias'
   },
-   {
-        "id": 11,
-         'title': 'AI Portfolio Generator',
-        'thumbnailUrl': 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-        'description': 'A web application that uses Gemini to automatically generate a portfolio from a GitHub profile.',
-        'technologies': ['react', 'typescript', 'API', 'gemini api'],
-        'htmlUrl': 'https://github.com/moormaninmotion-byte/AI-Portfolio-Generator',
-        'longDescription': 'This is the very application you\'re looking at. It fetches a user''s public GitHub repositories, sends the data to the Google Gemini API, and dynamically generates detailed, visually appealing project cards, complete with descriptions, problems solved, and key learnings.',
-        'problemSolved': 'Automates the tedious process of creating and maintaining a developer portfolio, allowing developers to showcase their work with minimal effort.',
-        'learnings': 'Mastered front-end development with React and TypeScript, and became proficient in prompt engineering and structured data extraction using the Gemini API.'
-    },
-    }
+  {
+    id: 11,
+    title: 'AI Portfolio Generator',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+    description: 'A web application that uses Gemini to automatically generate a portfolio from a GitHub profile.',
+    technologies: ['react', 'typescript', 'API', 'gemini api'],
+    htmlUrl: 'https://github.com/moormaninmotion-byte/AI-Portfolio-Generator',
+    longDescription: 'It fetches a public GitHub, sends the data to the Google Gemini API, and dynamically generates detailed, visually appealing project cards, complete with descriptions, problems solved, and key learnings.',
+    problemSolved: 'Automates the tedious process of creating and maintaining a developer portfolio, allowing developers to showcase their work with minimal effort.',
+    learnings: 'Mastered front-end development with React and TypeScript, and became proficient in prompt engineering and structured data extraction using the Gemini API.'
+  }
 ];
