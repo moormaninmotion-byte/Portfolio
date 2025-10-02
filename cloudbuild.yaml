@@ -1,7 +1,7 @@
 substitutions:
   _REGION: 'us-east5'
   _PROJECT_ID: 'gen-lang-client-0473731579'
- 
+
    
 steps:
   - name: 'gcr.io/cloud-builders/docker'
@@ -30,5 +30,4 @@ options:
   logging: CLOUD_LOGGING_ONLY
 
 timeout: '300s'  
-
 
