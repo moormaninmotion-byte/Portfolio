@@ -129,8 +129,8 @@ export const projects: Project[] = [
     description: 'A modular framework for building robust and scalable backend services.',
     technologies: ['typescript', 'node.js', 'express', 'dependency injection'],
     htmlUrl: 'https://github.com/moormaninmotion-byte/POST-Framework',
-    longDescription: 'POST-Framework is a TypeScript-based backend framework designed for rapid development of microservices and APIs. It emphasizes a modular architecture and a clear separation of concerns, allowing developers to build complex applications that are easy to maintain and scale.',
-    problemSolved: 'Accelerates backend development by providing a structured, opinionated, and scalable foundation for building modern web services and APIs in TypeScript.',
+    longDescription: 'Private AI, Secure AI, Private LLM',
+    problemSolved: 'LLM Privacy.',
     learnings: 'Gained a deep understanding of software architecture principles, including dependency injection and modular design, and their importance in creating maintainable and scalable backend systems.'
   },
   {
