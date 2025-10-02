@@ -8,7 +8,6 @@ substitutions:
 steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', '${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_AR_REPO}/${_SERVICE_NAME}:${_COMMIT_SHA}', '.']
-    dir: 'apps/<subfolder>'
 
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', '${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_AR_REPO}/${_SERVICE_NAME}:${_COMMIT_SHA}']
@@ -35,6 +34,7 @@ options:
   
 
 timeout: '300s'  
+
 
 
 
