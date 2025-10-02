@@ -19,15 +19,15 @@ export const Hero: React.FC = () => {
         </div>
         <div className="md:col-span-3 text-center md:text-left order-2 md:order-2">
           <h1 className="font-display text-5xl md:text-7xl font-extrabold tracking-tighter leading-tight mb-6">
-            Secure Cloud Solutions.
+            David
             <br />
-            <span className="text-brand-accent">David Moorman.</span>
+            <span className="text-brand-accent"> Moorman.</span>
           </h1>
           <p className="max-w-2xl mx-auto md:mx-0 text-lg md:text-xl text-brand-gray leading-relaxed mb-8">
-            I architect and secure robust digital infrastructures for innovate solutions.
+            I like to make fun stuff.
           </p>
           <p className="text-lg md:text-xl text-brand-light font-medium">
-            I am actively seeking opportunities in <b>Cloud Engineering</b>, <b>Cybersecurity</b>, and <b>DevOps</b>.
+            I am actively seeking opportunities in <b>Cloud Engineering</b>, <b></b>Software</b> <b>Cybersecurity</b>, and <b>DevOps</b>.
           </p>
         </div>
       </div>
