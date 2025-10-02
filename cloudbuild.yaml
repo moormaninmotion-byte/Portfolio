@@ -3,13 +3,12 @@ substitutions:
   _PROJECT_ID: 'gen-lang-client-0473731579'
   _AR_REPO: 'cloud-run-source-deploy'
   _SERVICE_NAME: 'dkm3'
-
-
-   
+  _COMMIT_SHA: '${SHORT_SHA}'
+  
 steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', '${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_AR_REPO}/${_SERVICE_NAME}:${_COMMIT_SHA}', '.']
-     dir: 'apps/<subfolder>'
+    dir: 'apps/<subfolder>'
 
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', '${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_AR_REPO}/${_SERVICE_NAME}:${_COMMIT_SHA}']
@@ -36,6 +35,7 @@ options:
   
 
 timeout: '300s'  
+
 
 
 
