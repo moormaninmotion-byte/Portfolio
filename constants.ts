@@ -114,7 +114,7 @@ export const projects: Project[] = [
   {
     id: 7,
     title: 'Pathfinding Algorithm Visualizer',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1593344484962-796b56d3e3a4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+    thumbnailUrl: 'https://i.ibb.co/V0LVCfxL/Screenshot-2025-10-02-142712.png',
     description: 'A visualizer for classic pathfinding algorithms like A* and Dijkstra\'s.',
     technologies: ['typescript', 'react', 'data structures', 'algorithms'],
     htmlUrl: 'https://pathfinder-89795080659.us-east5.run.app/',
