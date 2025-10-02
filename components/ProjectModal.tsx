@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import type { Project } from '../types';
 import { GitHubIcon } from './Icons';
-import { FcLink } from "react-icons/fc";
 
 
 interface ProjectModalProps {
@@ -108,7 +107,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-neutral-800 text-brand-light font-bold py-2 px-4 rounded-lg transition-colors hover:bg-brand-accent"
             >
-              <FcLink className="h-5 w-5" />
+              <GitHubIcon className="h-5 w-5" />
               Webpage
             </a>
             </div>
