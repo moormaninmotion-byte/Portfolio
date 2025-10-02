@@ -19,7 +19,7 @@ export const Contact: React.FC = () => {
         </a>
 
         <div className="flex items-center justify-center space-x-6 my-10">
-          <a href="https://github.com/moormaninmotion-byte" target="_blank" rel="noopener noreferrer" className="text-brand-gray hover:text-brand-accent transition-colors">
+          <a href="https://moormaninmotion-byte.github.io" target="_blank" rel="noopener noreferrer" className="text-brand-gray hover:text-brand-accent transition-colors">
             <GitHubIcon className="h-8 w-8" />
           </a>
         <a href="https://linkedin.com/in/dkm3" target="_blank" rel="noopener noreferrer" className="text-brand-gray hover:text-brand-accent transition-colors">
@@ -29,7 +29,6 @@ export const Contact: React.FC = () => {
 
         <a 
           href="mailto:moormaninmotion@gmail.com" 
-          download 
           className="text-brand-accent border-b border-brand-accent hover:text-brand-light hover:border-brand-light transition-colors"
         >
           Contact Me!
