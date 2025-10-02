@@ -99,6 +99,17 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
               View on GitHub
             </a>
           </div>
+          <div className="pt-4 mt-4 border-t border-neutral-800">
+             <a
+              href={project.htmlUrlG}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-neutral-800 text-brand-light font-bold py-2 px-4 rounded-lg transition-colors hover:bg-brand-accent"
+            >
+              <WebIcon className="h-5 w-5" />
+              Webpage
+            </a>
+            </div>
 
         </div>
       </div>
