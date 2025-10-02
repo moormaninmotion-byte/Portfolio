@@ -24,10 +24,10 @@ export const Hero: React.FC = () => {
             <span className="text-brand-accent">David Moorman.</span>
           </h1>
           <p className="max-w-2xl mx-auto md:mx-0 text-lg md:text-xl text-brand-gray leading-relaxed mb-8">
-            I leverage a unique blend of strategic planning, team leadership, and deep technical curiosity to architect and secure robust digital infrastructures for innovate solutions.
+            I architect and secure robust digital infrastructures for innovate solutions.
           </p>
           <p className="text-lg md:text-xl text-brand-light font-medium">
-            I am actively seeking opportunities in Cloud Engineering, Cybersecurity, and DevOps where I can contribute to building the secure, scalable, and resilient systems of tomorrow.
+            I am actively seeking opportunities in <b>Cloud Engineering</b>, <b>Cybersecurity</b>, and <b>DevOps</b>.
           </p>
         </div>
       </div>
