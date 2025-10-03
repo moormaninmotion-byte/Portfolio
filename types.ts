@@ -11,7 +11,6 @@ export interface Project {
   problemSolved?: string;
   learnings?: string;
   htmlUrl: string;
-  htmlUrlG: string;
 }
 
 export interface Skill {
