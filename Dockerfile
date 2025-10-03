@@ -1,33 +1,22 @@
-
-# Use an official Node.js runtime as a parent image
-FROM node:20 AS build
+# Stage 1: Build the React application
+FROM node:18-alpine AS build
 
 # Set the working directory
 WORKDIR /app
 
-# Copy package.json and package-lock.json
+# Copy package.json and package-lock.json (or npm-shrinkwrap.json)
 COPY package*.json ./
 
-# Install dependencies
+# Install all dependencies, including devDependencies
 RUN npm install
 
-# Copy the rest of the application's source code
+# Copy the rest of the application source code
 COPY . .
 
-# Build the app
+# Run the build script (tsc && vite build)
 RUN npm run build
 
-# Use a smaller, lightweight node image for the final image
-FROM node:20-slim
-
-# Set the working directory
-WORKDIR /app
-
-# Copy the build output from the build stage
-COPY --from=build /app/dist ./dist
-
-# Expose the port the app runs on
+# Stage 2: Serve the static files with Nginx
+FROM nginx:stable-alpine
+COPY --from=build /app/docs /usr/share/nginx/html
 EXPOSE 8080
-
-# Serve the static files
-CMD ["npx", "http-server", "dist", "-p", "8080"]
