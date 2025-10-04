@@ -2,7 +2,7 @@ import path from 'path';
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 
-const repoName = '/Portfolio/';
+const repoName = '/portfolio/';
 
 
 export default defineConfig(({ mode }) => {
@@ -15,11 +15,11 @@ export default defineConfig(({ mode }) => {
     plugins: [react()],
     base: process.env.NODE_ENV === 'production' ? repoName : '/',
     build: {
-      outDir: 'docs',
+      outDir: 'docs/',
     },
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '.'),
+        '@': path.resolve(repoName, '.'),
       },
     }
   };
