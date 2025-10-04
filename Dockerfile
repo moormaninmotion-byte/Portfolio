@@ -7,8 +7,9 @@ WORKDIR /app
 # Copy package.json and package-lock.json (or npm-shrinkwrap.json)
 COPY package*.json ./
 
-# Install all dependencies, including devDependencies
-RUN npm install
+# Use 'npm ci' for clean, reproducible installs in CI/CD environments.
+# This requires a package-lock.json file to be present.
+RUN npm ci
 
 # Copy the rest of the application source code
 COPY . .
