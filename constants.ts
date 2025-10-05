@@ -70,10 +70,10 @@ export const projects: Project[] = [
   {
     id: 3,
     title: 'Interpretable ML with SHAP',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+    thumbnailUrl: 'https://ibb.co/Fkn9mSnb',
     description: 'Using SHAP to explain a house price prediction machine learning model.',
     technologies: ['python', 'scikit-learn', 'shap', 'jupyter'],
-    htmlUrl: 'https://shap-89795080659.us-east5.run.app',
+    htmlUrl: 'https://interactive-shap-explainer-89795080659.us-west1.run.app',
     longDescription: 'This project trains a gradient boosting model to predict house prices and then uses SHAP (SHapley Additive exPlanations) to interpret its predictions. It provides visualizations that show which features have the most impact, making the "black box" model transparent.',
     problemSolved: 'Addresses the challenge of model interpretability in machine learning, providing clear, human-understandable explanations for complex model predictions.',
     learnings: 'This project was a deep dive into model interpretability, reinforcing the principle that explaining predictions is as crucial as making them, especially for building trust in AI systems.'
