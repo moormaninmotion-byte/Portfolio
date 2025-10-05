@@ -14,8 +14,8 @@ export const Hero: React.FC = () => {
             decoding="async"
           />
         </div>
-        <div className="md:col-span-3 text-center md:text-left order-2 md:order-2">
-          <h1 className="font-display text-5xl md:text-xl font-extrabold tracking-tighter leading-tighter mb-6">
+         <div className="md:col-span-3 text-center md:text-left order-2 md:order-2">
+          <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-snug mb-6">
             <span class Name = "hover:text-brand-accent">David</span>
             <br />
             <span className="text-brand-accent"> Moorman.</span>
