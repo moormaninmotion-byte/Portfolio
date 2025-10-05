@@ -12,6 +12,9 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', '${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_AR_REPO}/${_SERVICE_NAME}:${_COMMIT_SHA}']
 
+    - name: Build for Cloud Run
+      run: npm run build:cloud-run
+
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     entrypoint: gcloud
     args:
@@ -23,7 +26,7 @@ steps:
       - '--platform=managed'
       - '--allow-unauthenticated'
       - '--port=8080'
-      - '--set-env-vars=CLOUD_RUN=true'
+      - '--set-env-vars=_CLOUD_RUN=true'
       - '--quiet'
 
 images:
@@ -35,6 +38,7 @@ options:
   
 
 timeout: '300s'  
+
 
 
 
