@@ -6,7 +6,7 @@ import { homepage } from './package.json';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
   const isCloudRun = process.env.CLOUD_RUN === 'true'; 
-  const base = process.env.NODE_ENV === 'production' ? (isCloudRun ? '/' : '/Portfolio/') : '/'; 
+  const base = process.env.NODE_ENV === 'production' ? (isCloudRun ? '/' : '/') : '/'; 
   return {
     server: {
       port: 3000,
