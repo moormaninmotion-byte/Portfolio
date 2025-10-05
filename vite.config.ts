@@ -5,7 +5,7 @@ import { homepage } from './package.json';
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
-  const isCloudRun = process.env.CLOUD_RUN === 'true'; 
+  const isCloudRun = process.env._CLOUD_RUN === 'true'; 
   const base = process.env.NODE_ENV === 'production' ? (isCloudRun ? '/' : '/') : '/'; 
   return {
     server: {
