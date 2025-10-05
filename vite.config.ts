@@ -4,6 +4,9 @@ import react from '@vitejs/plugin-react';
 import { homepage } from './package.json';
 
 export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, process.cwd(), '');
+  const isCloudRun = process.env.CLOUD_RUN === 'true'; 
+  const base = process.env.NODE_ENV === 'production' ? (isCloudRun ? '/' : '/Portfolio/') : '/'; 
   const env = loadEnv(mode, '.', '');
   const base = process.env.NODE_ENV === 'production' ? new URL(homepage).pathname : '/';
   return {
