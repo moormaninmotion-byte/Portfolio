@@ -15,7 +15,7 @@ RUN npm ci
 COPY . .
 
 # Run the build script (tsc && vite build)
-RUN npm run build
+RUN npm run build:cloud-run
 
 # Stage 2: Serve the static files with Nginx
 FROM nginx:stable-alpine
