@@ -15,16 +15,16 @@ export const Hero: React.FC = () => {
           />
         </div>
         <div className="md:col-span-3 text-center md:text-left order-2 md:order-2">
-          <h1 className="font-display text-5xl md:text-7xl font-extrabold tracking-tighter leading-tight hover:text-brand-accent mb-6">
-            David
+          <h1 className="font-display text-5xl md:text-7xl font-extrabold tracking-tighter leading-tight mb-6">
+            <span class Name = "hover:text-brand-accent">David</span>
             <br />
-            <span className="text-brand-accent hover:text-brand-accent"> Moorman.</span>
+            <span className="text-brand-accent"> Moorman.</span>
           </h1>
           <p className="max-w-2xl mx-auto md:mx-0 text-lg md:text-xl text-brand-gray leading-relaxed mb-8">
             I like to make stuff.
           </p>
           <p className="text-lg md:text-xl text-brand-light font-medium">
-            I am actively seeking opportunities in <b>Cloud Engineering</b>,  <b>Cybersecurity</b> and <b>Machine Learning</b>.
+            I am actively seeking opportunities in <span className="text-brand-accent"> <b>Cloud Engineering</b>,  <b>Cybersecurity</b> </span> and <span className="text-brand-accent"> <b>Machine Learning</b></span>.
           </p>
         </div>
       </div>
