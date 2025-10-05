@@ -1,12 +1,12 @@
 {
-  "name": "portfolio",
+  "name": "Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://moormaninmotion-byte.github.io/portfolio/",
+  "homepage": "https://moormaninmotion-byte.github.io/Portfolio/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/moormaninmotion-byte/portfolio.git"
+    "url": "https://github.com/moormaninmotion-byte/Portfolio.git"
   },
   "scripts": {
     "dev": "vite",

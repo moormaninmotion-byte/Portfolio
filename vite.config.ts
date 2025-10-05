@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => {
     },
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, './Portfolio'),
+        '@': path.resolve(__dirname, './Portfolio/'),
       }
     }
   };
