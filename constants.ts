@@ -56,7 +56,7 @@ export const projects: Project[] = [
     problemSolved: 'Simplifies complex security operations by replacing arcane query languages with natural conversation, enabling faster threat hunting and response for security teams of all skill levels.',
     learnings: 'Mastered state management in complex conversational AI flows and gained expertise in fine-tuning language models to maintain a specific, security-focused operational context.'
   },
-  {
+ /* {
     id: 2,
     title: 'eyeSOC: Personal AI Security Agent',
     thumbnailUrl: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
@@ -66,7 +66,7 @@ export const projects: Project[] = [
     longDescription: 'eyeSOC is an AI-powered agent that acts as a personal Security Operations Center. It continuously monitors system logs and network traffic, using machine learning to detect anomalous behavior and potential threats in real-time. It provides actionable alerts and insights to help users secure their personal devices.',
     problemSolved: 'Brings enterprise-grade security monitoring to individual users, democratizing access to advanced threat detection capabilities for personal cybersecurity.',
     learnings: 'Developed deep experience in cross-platform desktop application development using Electron and Rust, focusing on the creation of efficient, low-overhead background monitoring processes.'
-  },
+  },*/
   {
     id: 3,
     title: 'Interpretable ML with SHAP',
@@ -78,7 +78,7 @@ export const projects: Project[] = [
     problemSolved: 'Addresses the challenge of model interpretability in machine learning, providing clear, human-understandable explanations for complex model predictions.',
     learnings: 'This project was a deep dive into model interpretability, reinforcing the principle that explaining predictions is as crucial as making them, especially for building trust in AI systems.'
   },
-  {
+/*  {
     id: 4,
     title: 'Multiple LLM Chaining Strategies',
     thumbnailUrl: 'https://images.unsplash.com/photo-1555949963-ff98c872d240?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
@@ -88,7 +88,7 @@ export const projects: Project[] = [
     longDescription: 'This project implements and compares various strategies for chaining multiple LLMs together to solve complex problems. It explores techniques like sequential processing and tree-of-thought to achieve more accurate and nuanced results than a single model can provide.',
     problemSolved: 'Demonstrates how to overcome the limitations of single LLMs by orchestrating multiple models, enabling the solution of more complex, multi-step reasoning tasks.',
     learnings: 'Gained practical experience in designing and implementing complex LLM orchestration patterns, understanding the trade-offs between different chaining strategies for accuracy and efficiency.'
-  },
+  },*/
   {
     id: 5,
     title: 'Karen-AI: Manager Chatbot',
@@ -100,7 +100,7 @@ export const projects: Project[] = [
     problemSolved: 'Serves as an engaging and memorable demonstration of advanced chatbot personality programming and state management in a conversational AI.',
     learnings: 'Honed skills in prompt engineering and persona creation for conversational AI, learning to guide the model’s behavior to maintain a consistent and challenging character.'
   },
-  {
+/*  {
     id: 6,
     title: 'AI Prompt Refiner',
     thumbnailUrl: 'https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
@@ -110,7 +110,7 @@ export const projects: Project[] = [
     longDescription: 'A web-based tool that takes a user\'s initial idea for a prompt and iteratively refines it. It suggests additions, clarifies ambiguities, and structures the prompt based on best practices to elicit higher-quality responses from Large Language Models.',
     problemSolved: 'Parameter tuning, MLoPs',
     learnings: 'Learned to build intuitive user interfaces for complex AI interactions and developed a systematic approach to prompt optimization for better model performance.'
-  },
+  }*/,
   {
     id: 7,
     title: 'Pathfinding Algorithm Visualizer',
@@ -121,7 +121,7 @@ export const projects: Project[] = [
     longDescription: 'An interactive web application that visualizes how pathfinding algorithms work. Users can create a grid with obstacles, select an algorithm, and watch in real-time as it finds the shortest path between two points.',
     problemSolved: 'Makes complex computer science algorithms tangible and easier to understand through interactive visualization, serving as a powerful educational tool.',
     learnings: 'Reinforced fundamental computer science concepts by translating abstract algorithms into a concrete, interactive visual experience. Improved React state management for real-time UI updates.'
-  },
+  },/*,
   {
     id: 8,
     title: 'POST-Framework',
@@ -132,7 +132,7 @@ export const projects: Project[] = [
     longDescription: 'POST-Framework is a TypeScript-based backend framework designed for rapid development of microservices and APIs. It emphasizes a modular architecture and a clear separation of concerns, allowing developers to build complex applications that are easy to maintain and scale.',
     problemSolved: 'Accelerates backend development by providing a structured, opinionated, and scalable foundation for building modern web services and APIs in TypeScript.',
     learnings: 'Gained a deep understanding of software architecture principles, including dependency injection and modular design, and their importance in creating maintainable and scalable backend systems.'
-  },
+  },*/
   {
     id: 9,
     title: 'Jargonator',
@@ -154,8 +154,9 @@ export const projects: Project[] = [
     longDescription: 'Explores challenges weaknesses and potential vulnerabilities of Gen AI, LLMs',
     problemSolved: 'AI Safety AI Security',
     learnings: 'Bias'
-  },
-  {
+  }
+  /*,
+/*  {
     id: 11,
     title: 'AI Portfolio Generator',
     thumbnailUrl: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
@@ -165,5 +166,5 @@ export const projects: Project[] = [
     longDescription: 'It fetches a public GitHub, sends the data to the Google Gemini API, and dynamically generates detailed, visually appealing project cards, complete with descriptions, problems solved, and key learnings.',
     problemSolved: 'Automates the tedious process of creating and maintaining a developer portfolio, allowing developers to showcase their work with minimal effort.',
     learnings: 'Mastered front-end development with React and TypeScript, and became proficient in prompt engineering and structured data extraction using the Gemini API.'
-  }
+}, */ 
 ];
