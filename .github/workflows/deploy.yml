@@ -25,11 +25,11 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-      - name: Set GITHUB_PAGES env variable
-        run: echo "GITHUB_PAGES=true" >> $GITHUB_ENV
+    - name: Set GITHUB_PAGES env variable
+      run: echo "GITHUB_PAGES=true" >> $GITHUB_ENV
     
-    - name: Build project
-      run: npm run build # Runs tsc && vite build
+    - name: Build for GitHub Pages
+      run: npm run build:gh-pages
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
