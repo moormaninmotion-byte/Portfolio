@@ -24,7 +24,7 @@ export const Hero: React.FC = () => {
             I like to make stuff.
           </p>
           <p className="text-lg md:text-xl text-brand-light font-medium">
-            I am actively seeking opportunities in <b>Cloud Engineering</b>,  <b>Cybersecurity</b>, and <b>Machine Learning</b>.
+            I am actively seeking opportunities in <b>Cloud Engineering</b>,  <b>Cybersecurity</b> and <b>Machine Learning</b>.
           </p>
         </div>
       </div>
