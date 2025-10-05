@@ -9,16 +9,16 @@ export const Hero: React.FC = () => {
           <img
             src="https://i.ibb.co/YTpMXx41/RUID55dc386b036248bd9a970957aa215225.jpg"
             alt="Headshot"
-            className="object-cover border-4 border-neutral-800 transition-colors duration-300 hover:border-brand-accent shadow-lg"
+            className="object-cover border-24 border-neutral-800 transition-colors duration-300 hover:border-brand-accent shadow-lg"
             loading="lazy"
             decoding="async"
           />
         </div>
         <div className="md:col-span-3 text-center md:text-left order-2 md:order-2">
-          <h1 className="font-display text-5xl md:text-7xl font-extrabold tracking-tighter leading-tight mb-6">
+          <h1 className="font-display text-5xl md:text-7xl font-extrabold tracking-tighter leading-tight hover:text-brand-accent mb-6">
             David
             <br />
-            <span className="text-brand-accent"> Moorman.</span>
+            <span className="text-brand-accent hover:text-brand-accent"> Moorman.</span>
           </h1>
           <p className="max-w-2xl mx-auto md:mx-0 text-lg md:text-xl text-brand-gray leading-relaxed mb-8">
             I like to make stuff.
