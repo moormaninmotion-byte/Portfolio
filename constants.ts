@@ -70,7 +70,7 @@ export const projects: Project[] = [
   {
     id: 3,
     title: 'Interpretable ML with SHAP',
-    thumbnailUrl: 'https://ibb.co/Fkn9mSnb',
+    thumbnailUrl: 'https://i.ibb.co/BHwmcXwV/Screenshot-2025-10-05-105919.png',
     description: 'Using SHAP to explain a house price prediction machine learning model.',
     technologies: ['python', 'scikit-learn', 'shap', 'jupyter'],
     htmlUrl: 'https://interactive-shap-explainer-89795080659.us-west1.run.app',
